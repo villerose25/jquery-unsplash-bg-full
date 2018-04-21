@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/villerose25/jquery-unsplash-bg-full/issues"
   },
-  "homepage": "https://github.com/villerose25/jquery-unsplash-bg-full#readme"
+  "homepage": "https://github.com/villerose25/jquery-unsplash-bg-full#readme",
+  "devDependencies": {
+    "eslint": "4.19.1"
+  }
 }
