@@ -1,0 +1,26 @@
+{
+  "name": "jquery-unsplash-bg-full",
+  "version": "0.1.0-development",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villerose25/jquery-unsplash-bg-full.git"
+  },
+  "keywords": [
+    "jquery",
+    "unsplash",
+    "full",
+    "background",
+    "plugin"
+  ],
+  "author": "Deya Davila <alivad3ya@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/villerose25/jquery-unsplash-bg-full/issues"
+  },
+  "homepage": "https://github.com/villerose25/jquery-unsplash-bg-full#readme"
+}
