@@ -6,8 +6,25 @@
  */
 
 (function($) {
-    $.fn.setRed = function() {
-        this.css('background-color', 'red');
-        return this;
+    function UnsplashBgFull() {}
+
+    UnsplashBgFull.prototype.setup = function(clientId) {
+        this.clientId = clientId;
     };
+
+    $.fn.unsplashBgFull = function(options) {
+        options = options || {};
+
+        this.css({
+            height: '100vh',
+            minHeight: options.minHeight || '800px',
+            width: '100%',
+            backgroundSize: options.backgroundSize || 'cover',
+            backgroundPosition: options.backgroundPosition || 'center',
+            backgroundColor: options.backgroundColor || 'black',
+        });
+    };
+
+
+    window.unsplashBgFull = new UnsplashBgFull();
 })(jQuery);
