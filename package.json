@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,13 @@
   },
   "homepage": "https://github.com/villerose25/jquery-unsplash-bg-full#readme",
   "devDependencies": {
-    "eslint": "4.19.1"
-  }
+    "chai": "4.1.2",
+    "eslint": "4.19.1",
+    "mocha": "5.1.1",
+    "pre-commit": "1.2.2"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ]
 }
