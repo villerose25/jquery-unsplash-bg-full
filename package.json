@@ -1,8 +1,8 @@
 {
   "name": "jquery-unsplash-bg-full",
-  "version": "0.1.0-development",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
