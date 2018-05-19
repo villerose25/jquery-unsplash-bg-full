@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>jQuery Bg Unsplash Full</title>
+  <style>
+    body {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="random"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../src/index.js"></script>
+  <script>
+    window.unsplashBgFull.setup('c0f2726eb8552e62e89940d61282bb5bc461fb725ba68f9c67569b8f4759eacf');
+    $('#random').unsplashBgFull({ backgroundColor: 'red' });
+  </script>
+</body>
+</html>
