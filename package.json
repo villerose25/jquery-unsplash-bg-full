@@ -1,0 +1,42 @@
+{
+  "name": "jquery-unsplash-bg-full",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "test": "mocha",
+    "test:watch": "mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villerose25/jquery-unsplash-bg-full.git"
+  },
+  "keywords": [
+    "jquery",
+    "unsplash",
+    "full",
+    "background",
+    "plugin"
+  ],
+  "author": "Deya Davila <alivad3ya@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/villerose25/jquery-unsplash-bg-full/issues"
+  },
+  "homepage": "https://github.com/villerose25/jquery-unsplash-bg-full#readme",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "eslint": "4.19.1",
+    "jquery": "3.3.1",
+    "jsdom": "11.10.0",
+    "mocha": "5.1.1",
+    "pre-commit": "1.2.2",
+    "sinon": "5.0.3"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ]
+}
