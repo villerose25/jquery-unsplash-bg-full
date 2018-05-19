@@ -1,6 +1,6 @@
 /**
- * jquery-full-bg-unsplash
- * @version 0.1.0-development
+ * jquery-unsplash-bg-full
+ * @version 0.1.0
  * @author Deyanira
  * @license The MIT License (MIT)
 */
