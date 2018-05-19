@@ -60,7 +60,7 @@ $('#full-bg-random').unsplashBgFull({
 
 In case that endpoint of Unsplash responses with errors, you can set an image(this only is visible when Unsplash endpoint fails):
 ```js
-$('#full-bg-random({
+$('#full-bg-random').unsplashBgFull({
   backgroundImage: 'path/image.jpg'
 });
 ```
